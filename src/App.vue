@@ -1,3 +1,14 @@
+<script lang="ts">//Linguagem TypeScript
+import Banner from './components/Banner.vue';
+
+export default {
+  components: { Banner }
+}
+</script>
+
 <template>
-  <h1>Cookin UP</h1>
+  <Banner/>
 </template>
+
+<style scoped>
+</style>
