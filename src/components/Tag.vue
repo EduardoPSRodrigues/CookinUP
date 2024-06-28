@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <span class="tag" :class="{ ativa: ativa }" >
+    <span :class="['tag', { ativa }]" >
         {{ texto }}
     </span>
 </template>
