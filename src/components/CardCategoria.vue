@@ -2,20 +2,23 @@
 import type ICategoria from '@/interfaces/ICategoria';
 import type { PropType } from 'vue';
 import Tag from './Tag.vue';
+import IngredienteSelecionavel from './IngredienteSelecionavel.vue';
 
 export default {
   props: {
     //Informa para o ts que essa variável está definida e utiliza os campos da interface
     categoria: { type: Object as PropType<ICategoria>, required: true }
   },
-  components: { Tag }
+  components: { Tag, IngredienteSelecionavel },
+  emits: ['adicionarIngrediente', 'removerIngrediente']
 }
 </script>
 
 <template>
   <article class="categoria">
     <header class="categoria__cabecalho">
-      <img :src="`/public/imagens/icones/categorias_ingredientes/${categoria.imagem}`" alt="" class="categoria__imagem">
+      <img :src="`/public/imagens/icones/categorias_ingredientes/${categoria.imagem}`"
+        alt="`Ícone de ${categoria.nome}`" class="categoria__imagem">
 
       <h2 class="paragrafo-lg categoria__nome">
         {{ categoria.nome }}
@@ -24,7 +27,12 @@ export default {
 
     <ul class="categoria__ingredientes">
       <li v-for="ingrediente in categoria.ingredientes" :key="ingrediente">
-        <Tag :texto="ingrediente" />
+        <IngredienteSelecionavel 
+          :ingrediente="ingrediente" 
+          @adicionar-ingrediente="$emit('adicionarIngrediente', $event)" 
+          @remover-ingrediente="$emit('removerIngrediente', $event)" /> 
+          <!-- Fazendo o percurso do componente IngredienteSelecionado até o ConteúdoPrincipal, para o sistema
+           ver a atualização dessa informação -->
       </li>
     </ul>
   </article>
