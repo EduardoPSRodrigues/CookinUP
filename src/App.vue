@@ -9,10 +9,9 @@ export default {
 </script>
 
 <template>
-  <Banner/>
-  <ConteudoPrincipal/>
+  <Banner />
+  <ConteudoPrincipal />
   <Rodape />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
