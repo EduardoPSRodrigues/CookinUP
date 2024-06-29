@@ -31,12 +31,20 @@ export default {
   <main class="conteudo-principal">
     <SuaLista :ingredientes="ingredientes" />
 
-    <SelecionarIngredientes v-if="conteudo === 'SelecionarIngredientes'"
-      @adicionar-ingrediente="adicionarIngredientes" 
-      @remover-ingrediente="removerIngrediente"
-      @buscar-receitas="navegar('MostrarReceitas')" />
+    <!-- Nessesário para não perder o estado das variávies selecionadas
+     Nesse caso, esta salvando cash apenas do  SelecionarIngredientes -->
+    <KeepAlive include="SelecionarIngredientes">
+      <SelecionarIngredientes v-if="conteudo === 'SelecionarIngredientes'"
+        @adicionar-ingrediente="adicionarIngredientes" 
+        @remover-ingrediente="removerIngrediente"
+        @buscar-receitas="navegar('MostrarReceitas')" />
+      
 
-    <MostrarReceitas v-else-if="conteudo === 'MostrarReceitas'" /> 
+      <MostrarReceitas 
+        v-else-if="conteudo === 'MostrarReceitas'"
+        :ingredientes="ingredientes"
+        @editar-receitas="navegar('SelecionarIngredientes')" /> 
+    </KeepAlive>
   </main>
 
 </template>
