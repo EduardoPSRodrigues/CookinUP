@@ -1,16 +1,17 @@
 <script lang="ts">//Linguagem TypeScript
 import Banner from './components/Banner.vue';
+import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
 import Rodape from './components/Rodape.vue';
 
 export default {
-  components: { Banner, Rodape }
+  components: { Banner, ConteudoPrincipal, Rodape }
 }
 </script>
 
 <template>
-  <Banner/>
+  <Banner />
+  <ConteudoPrincipal />
   <Rodape />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
