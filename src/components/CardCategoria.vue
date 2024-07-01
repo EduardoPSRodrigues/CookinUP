@@ -17,7 +17,7 @@ export default {
 <template>
   <article class="categoria">
     <header class="categoria__cabecalho">
-      <img :src="`/public/imagens/icones/categorias_ingredientes/${categoria.imagem}`"
+      <img :src="`/imagens/icones/categorias_ingredientes/${categoria.imagem}`"
         alt="`Ícone de ${categoria.nome}`" class="categoria__imagem">
 
       <h2 class="paragrafo-lg categoria__nome">
