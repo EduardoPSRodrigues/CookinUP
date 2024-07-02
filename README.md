@@ -1,40 +1,58 @@
-# cookin-up
+<div align="center">
+<img src="/imagens/banner/CookinUP.png" width="900px" alt="CookinUP - Um banquete de ideias para despertar o chef que há em você! Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!  " />
+</div>
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descrição do Projeto
 
-## Recommended IDE Setup
+ Cookin UP é um aplicativo de gastronomia que permite aos usuários selecionar ingredientes que possuem em casa e buscar receitas deliciosas que podem ser preparadas com esses ingredientes. 
+ O objetivo é facilitar a preparação de refeições, evitando desperdícios e oferecendo opções culinárias diversificadas e saborosas.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🌎 LINK DO SITE
 
-## Type Support for `.vue` Imports in TS
+https://cookinup.vercel.app/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## 💻 TECNOLOGIAS UTILIZADAS 
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-## Customize configuration
+- Linguagem HTML, CSS e Typescript.
+- Framework Vue 3 na versão 3.3.4.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 📚 FUNCIONALIDADES
 
-## Project Setup
+- *Seleção de Ingredientes:* Os usuários podem adicionar e remover ingredientes da sua lista pessoal.
+- *Busca de Receitas:* Com base nos ingredientes selecionados, o aplicativo sugere receitas que podem ser preparadas.
+- *Exibição de Receitas:* Detalhes das receitas são apresentados, incluindo imagem e nome da receita.
+- *Interface Responsiva:* O aplicativo é otimizado para diversos tamanhos de tela, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-```sh
+## ▶️ COMO EXECUTAR O PROJETO
+
+- Clonar o repositório 
+
+``` sh
+https://github.com/EduardoPSRodrigues/CookinUP.git
+```
+
+- Abra o projeto e no terminal execute o comando:
+
+``` sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+- Depois execute o comando para compilar e habilitar o servidor local
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+- Para verificar erros de tipo no código TypeScript e otimizar o código, use o comando
 
 ```sh
 npm run build
 ```
+
+
+|    Autor    |  GitHub   |   Linkedin  | 
+|  :---: | :---:  | :---: |
+|  <img src="https://avatars.githubusercontent.com/u/135388215?s=400&u=a37d71f559365352e60211d8f88e41516c7e2e7d&v=4" width="60%" height="60%" alt="Foto do Autor Eduardo Rodrigues" /> | Eduardo Rodrigues :: [@EduardoPSRodrigues](https://github.com/EduardoPSRodrigues) | [Meu Perfil](https://www.linkedin.com/in/eduardo-rodrigues-a1a0792a4/) |
