@@ -2,31 +2,31 @@
 <img src="public/imagens/banner/CookinUP.png" width="900px" alt="CookinUP - Um banquete de ideias para despertar o chef que há em você! Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!  " />
 </div>
 
-## Descrição do Projeto
+## ✳️ Descrição do projeto
 
  Cookin UP é um aplicativo de gastronomia que permite aos usuários selecionar ingredientes que possuem em casa e buscar receitas deliciosas que podem ser preparadas com esses ingredientes. 
  O objetivo é facilitar a preparação de refeições, evitando desperdícios e oferecendo opções culinárias diversificadas e saborosas.
 
-## 🌎 LINK DO SITE
+## 🌎 Link do site
 
 https://cookinup.vercel.app/
 
 
-## 💻 TECNOLOGIAS UTILIZADAS 
+## 💻 Tecnologias utilizadas 
 
 Projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - Linguagem HTML, CSS e Typescript.
 - Framework Vue 3 na versão 3.3.4.
 
-## 📚 FUNCIONALIDADES
+## 📚 Funcionalidades
 
 - *Seleção de Ingredientes:* Os usuários podem adicionar e remover ingredientes da sua lista pessoal.
 - *Busca de Receitas:* Com base nos ingredientes selecionados, o aplicativo sugere receitas que podem ser preparadas.
 - *Exibição de Receitas:* Detalhes das receitas são apresentados, incluindo imagem e nome da receita.
 - *Interface Responsiva:* O aplicativo é otimizado para diversos tamanhos de tela, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
 
-## ▶️ COMO EXECUTAR O PROJETO
+## ▶️ Como executar o projeto
 
 - Clonar o repositório 
 
