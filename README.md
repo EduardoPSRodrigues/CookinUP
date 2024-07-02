@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/imagens/banner/CookinUP.png" width="900px" alt="CookinUP - Um banquete de ideias para despertar o chef que há em você! Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!  " />
+<img src="public/imagens/banner/CookinUP.png" width="900px" alt="CookinUP - Um banquete de ideias para despertar o chef que há em você! Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!  " />
 </div>
 
 ## Descrição do Projeto
